@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.navlinks a {
+  text-decoration: none;
+}
+
+.btmText a {
+  text-decoration: none;
+  padding-top: 5px;
+ 
+}
