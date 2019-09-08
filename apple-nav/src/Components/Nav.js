@@ -45,7 +45,7 @@ function Nav() {
                     <Link to="/ipad" >Ipad</Link>
                     <Link to="/iphone">Iphone</Link>
                     <Link to="/watch">Watch</Link>
-                    <Link to="/tv">TV</Link>
+                    <Link to="/TV">TV</Link>
                     <Link to="/music">Music</Link>
                     <Link to="/support">Support</Link>
                     <Link to="/search"><img src={SearchIcon} alt="search" style={iconStyles} /></Link>

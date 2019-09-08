@@ -4,41 +4,21 @@ import styled from 'styled-components'
 ;
 import Mac from './Sub-Components/Mac';
 import Ipad from './Sub-Components/Ipad';
+import Iphone from './Sub-Components/Iphone';
+import Watch from './Sub-Components/Watch';
+import TV from './Sub-Components/TV'
+import Music from './Sub-Components/Music';
 
-// const SubNavDivWrapper = styled.div`
-// width:100%;
-// margin-top: 30px;
-// background-color: #FFFAFA;
-// margin-top: -20px;
-// `
-// const SubNavDiv = styled.div`
-// display: flex;
-// justify-content: space-between;
-// align-items: center;
-// margin-left: 25px;
-// margin-right: 25px;
-// padding-left: 10px
-// padding-right: 10px
-// height: 85px;
-
-// `
-
-// const BottomText = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   `
-
-// let iconStyles = {
-//   height: '55px',
-//   width: '50px'
-// }
 
 function SubNav() {
     return (
         <div>
             <Route path='/mac' component={Mac}></Route>
             <Route path='/ipad' component={Ipad}></Route>
+            <Route path='/iphone' component={Iphone}></Route>
+            <Route path='/watch' component={Watch}></Route>
+            <Route path='/TV' component={TV}></Route>
+            <Route path='/music' component={Music}></Route>
         </div>
     )
        

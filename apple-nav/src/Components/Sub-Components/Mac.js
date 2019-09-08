@@ -35,64 +35,64 @@ let iconStyles = {
   width: '30px'
 }
 
-function Mac(props){
-    return (
-        <SubNavDivWrapper>
-             
-            <SubNavDiv>
-                <div className="btmText">
-                    <Link to="/mac"><img src={MacAir} alt='mac' style={iconStyles}></img> </Link>
-                    <Link to="/mac">MacBook Air</Link>
-                    </div>
-                      <div className="btmText">
-                
-                    <Link to="/mac"><img src={MacBook} alt='MacBook Pro' style={iconStyles}></img> </Link>
-                    <Link to="/mac">MacBook Pro</Link>
-                    </div>
-                      <div className="btmText">
+function Mac(props) {
+  return (
+    <SubNavDivWrapper>
 
-                     <Link to="/mac"><img src={iMac} alt='iMac' style={iconStyles}></img> </Link>
-                    <Link to="/mac">iMac</Link>
-                    </div>
-                      <div className="btmText">
+      <SubNavDiv>
+        <div className="btmText">
+          <Link to="/mac"><img src={MacAir} alt='mac' style={iconStyles}></img> </Link>
+          <Link to="/mac">MacBook Air</Link>
+        </div>
 
-                      <Link to="/mac"><img src={iMacPro} alt='iMacPro' style={iconStyles}></img> </Link>
-                    <Link to="/mac">iMacPro</Link>
-                    </div>
-                      <div className="btmText">
+        <div className="btmText">
+          <Link to="/mac"><img src={MacBook} alt='MacBook Pro' style={iconStyles}></img> </Link>
+          <Link to="/mac">MacBook Pro</Link>
+        </div>
 
-                      <Link to="/mac"><img src={MacPro} alt='MacPro' style={iconStyles}></img> </Link>
-                    <Link to="/mac">MacPro</Link>
-                    </div>
-                      <div className="btmText">
+        <div className="btmText">
+          <Link to="/mac"><img src={iMac} alt='iMac' style={iconStyles}></img> </Link>
+          <Link to="/mac">iMac</Link>
+        </div>
 
-                      <Link to="/mac"><img src={MacMini} alt='MacMini' style={iconStyles}></img> </Link>
-                    <Link to="/mac">MacMini</Link>
-                    </div>
-                      <div className="btmText">
+        <div className="btmText">
+          <Link to="/mac"><img src={iMacPro} alt='iMacPro' style={iconStyles}></img> </Link>
+          <Link to="/mac">iMacPro</Link>
+        </div>
 
-                      <Link to="/mac"><img src={MacCompare} alt='MacCompare' style={iconStyles}></img> </Link>
-                    <Link to="/mac">MacCompare</Link>
-                    </div>
-                      <div className="btmText">
+        <div className="btmText">
+          <Link to="/mac"><img src={MacPro} alt='MacPro' style={iconStyles}></img> </Link>
+          <Link to="/mac">MacPro</Link>
+        </div>
 
-                      <Link to="/mac"><img src={MacProDis} alt='MacProDis' style={iconStyles}></img> </Link>
-                    <Link to="/mac">MacProDis</Link>
-                    </div>
-                      <div className="btmText">
+        <div className="btmText">
+          <Link to="/mac"><img src={MacMini} alt='MacMini' style={iconStyles}></img> </Link>
+          <Link to="/mac">MacMini</Link>
+        </div>
 
-                      <Link to="/mac"><img src={MacAccessor} alt='MacAccessor' style={iconStyles}></img> </Link>
-                    <Link to="/mac">MacAccessor</Link>
-                    </div>
-                      <div className="btmText">
+        <div className="btmText">
+          <Link to="/mac"><img src={MacCompare} alt='MacCompare' style={iconStyles}></img> </Link>
+          <Link to="/mac">MacCompare</Link>
+        </div>
 
-                      <Link to="/mac"><img src={MacOS} alt='MacOS' style={iconStyles}></img> </Link>
-                    <Link to="/mac">MacOS</Link>
-                    </div>
-               
-            </SubNavDiv>
+        <div className="btmText">
+          <Link to="/mac"><img src={MacProDis} alt='MacProDis' style={iconStyles}></img> </Link>
+          <Link to="/mac">MacProDis</Link>
+        </div>
+
+        <div className="btmText">
+          <Link to="/mac"><img src={MacAccessor} alt='MacAccessor' style={iconStyles}></img> </Link>
+          <Link to="/mac">MacAccessor</Link>
+        </div>
+
+        <div className="btmText">
+          <Link to="/mac"><img src={MacOS} alt='MacOS' style={iconStyles}></img> </Link>
+          <Link to="/mac">MacOS</Link>
+        </div>
+
+      </SubNavDiv>
     </SubNavDivWrapper>
-    );
+  );
 }
 
 export default Mac;

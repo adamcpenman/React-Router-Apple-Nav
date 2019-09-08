@@ -10,7 +10,7 @@ import IpadCompare from '../../images/2_iPad_icons/4_ipad_compare_light.png';
 import ApplePencil from '../../images/2_iPad_icons/5_apple_pencil_light.png';
 import Keyboard from '../../images/2_iPad_icons/6_smart_keyboard_light.png';
 import IpadAccessor from '../../images/2_iPad_icons/7_ipad_accessories_light.png';
-import IpadIod from '../../images/2_iPad_icons/8_ipad_ios_light.png';
+import IpadIos from '../../images/2_iPad_icons/8_ipad_ios_light.png';
 
 const SubNavDivWrapper = styled.div`
 width:100%;
@@ -79,7 +79,7 @@ function Ipad() {
                     <Link to="/ipad">iPad Accessories</Link>
                 </div>
                 <div className="btmText">
-                    <Link to="/ipad"><img src={IpadIod} alt='ipad' style={iconStyles} ></img> </Link>
+                    <Link to="/ipad"><img src={IpadIos} alt='ipad' style={iconStyles} ></img> </Link>
                     <Link to="/ipad">iPad ios</Link>
 
                 </div>
