@@ -2,15 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import SearchIcon from '../images/searchIcon.png';
-import AppleLogo from '../images/appleLogo.png';
-import BagIcon from '../images/bagIcon.png';
+import SearchIcon from '../images/0_Header_icons/search_image_large.png';
+import AppleLogo from '../images/0_Header_icons/apple-logo.png';
+import BagIcon from '../images/0_Header_icons/bag_image_large.png';
 
 const NavDivWrapper = styled.div`
 width:100%;
 margin-top: 20px;
-border: 1px solid red;
-background-color: white;
+background-color: black;
 `
 
 const NavDiv = styled.div`
@@ -26,13 +25,13 @@ height: 85px;
 `
 
 let AppleL = {
-    height: '25px',
-    width: '40px'
+    height: '35px',
+    width: '35px'
 }
 
 let iconStyles = {
   height: '25px',
-  width: '20px'
+  width: '25px'
 }
 
 function Nav() {
@@ -42,7 +41,8 @@ function Nav() {
               
 
                     <Link to="/"><img src={AppleLogo} alt='apple logo' style={AppleL} /></Link>
-                    <Link to="/ipad">Ipad</Link>
+                    <Link to="/mac" >Mac</Link>
+                    <Link to="/ipad" >Ipad</Link>
                     <Link to="/iphone">Iphone</Link>
                     <Link to="/watch">Watch</Link>
                     <Link to="/tv">TV</Link>

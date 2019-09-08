@@ -14,10 +14,20 @@ code {
 
 .navlinks a {
   text-decoration: none;
+  color: #808080;
+}
+
+.navlinks a:hover {
+  color: white;
 }
 
 .btmText a {
   text-decoration: none;
   padding-top: 5px;
- 
+  font-size: 13px;
+  color: #808080;
+}
+
+.btmText a:hover {
+  color: black;
 }
