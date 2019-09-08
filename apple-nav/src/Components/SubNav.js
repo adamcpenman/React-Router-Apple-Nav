@@ -2,7 +2,8 @@ import React from 'react';
 import { Link, Route} from 'react-router-dom';
 import styled from 'styled-components'
 ;
-import Mac from './Mac';
+import Mac from './Sub-Components/Mac';
+import Ipad from './Sub-Components/Ipad';
 
 // const SubNavDivWrapper = styled.div`
 // width:100%;
@@ -37,6 +38,7 @@ function SubNav() {
     return (
         <div>
             <Route path='/mac' component={Mac}></Route>
+            <Route path='/ipad' component={Ipad}></Route>
         </div>
     )
        
